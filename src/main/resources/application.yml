@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /djh-hello-world
+    application-display-name: djh-hello-world
+  tomcat:
+    max-threads: 1000
+    accept-count: 15000
+    min-spare-threads: 100
+  connection-timeout: 20s
+
